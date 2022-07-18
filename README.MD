@@ -1,3 +1,47 @@
+
+# Introdução a criação de websites com HTML5 e CSS3
+
+## Nesse projeto foi criado uma estrutura de uma página html, contendo informações como título, texto,imagem e o hyperlink aponta para o acesso a outras páginas como rede social,email,telefone, os dois últimos precisam dos prefixos mailto.
+
+## No HEADME.md consta mais informações sobre o curso.
+
+### No arquivo index.html consta inofrmações que aparecerão na pagina do html no navegador e o arquivo Style.css representa o visual do site. Dê um clique com o botão direito do mouse em cima desse arquivo
+e selecione open with live serve, com esse comando o projeto abrirá no navegador.
+
+## #Curso realizado pela Dio.me com o professor Lucas Vilaboim- Frontend- Engineer/ Callink
+
+
+
+
+
+
+### Curso feito na Dio.me com o professor Lucas Vilaboim- Frontend- Engineer/ Callink
+
+
+
+
+## links úteis
+
+[sintaxe basica markdown](https://www.dio.me/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 HTML5
 
 Curso realizado pelo professor Lucas Vilaboim- Frontend- Engineer/ Callink
