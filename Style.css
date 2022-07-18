@@ -1,0 +1,63 @@
+/* Mudando a aparencia site, */
+
+body{
+    background-color:gray ;  /* logo apos lançar o class post no article*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  /* muda a fonte todo site*/
+    max-width: 900px;  /* width altera largura container onde está post#1 e a max-width enquadra em tela menores*/
+    margin: auto;   /* adapta a varios tamanhos de tela, cria um espaçamento do lado e do outro(centraliza)*/
+
+}
+.photo_robo{     /* classe criada para auterar primeira imagem*/
+    border: 1px solid black;
+    border-radius: 50%;   /* arredonda bordas*/
+    
+    
+}
+
+
+
+#title, .subtitle, .post_title{     /* inciar com # é um id e iniciar com . é uma class, NAO MUDOU COR SUBTITLE*/
+    color: #505050;
+}
+#title{                 /* Titulo suellen*/
+    font-size: 40px;  /* aumentar a fonte*/
+    text-transform: uppercase;  /* texto caixa alta*/
+}
+a{                                          /* auterações fonte link*/
+    text-decoration-line: line-through;  /* coloca linha ao centro*/
+    color: #505050;
+}
+
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;   /* margem 0*/
+    margin-bottom: 15; /* coloca margem inferior , no conteudo index lançar class context*/
+}
+.post {               /* container onde esta o post*/
+    background-color: darkgray; 
+    padding: 15px;    /* Padding espacamento entre o conteudo e  as bordas*/
+    border: 3px solid gray;
+    margin-bottom: 15px;
+    border-radius: 5px;  /* Arredondar bordas*/
+}
+.post_content{          /* conteudo*/
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;   /* primeira letra de cadaa palavra maiuscula ,text-align para centrilzar texto, justifica ou alinhar esquerda ou direita*/
+    
+}
+
+.post_image{       /* classe criada espaçamento texto imagem se a imagem ultrapassar container ultilizar width 100%*/
+    margin: 15px;
+}
+                
+.contacts_list{       /* classe criada html footeer(roda pe)*/
+    list-style-type: none;   /* square os marcadores ficam quadrados o nome apaga marcadores*/
+    padding-left: 15px; /* reduz o espaçamento do paragrafo*/
+}
+
+.contacts_list li a {     /* muda as cores de todos o links ao mesmo tempo*/
+    color: blue;
+    text-decoration: none;  /* tira os ricos da letra dos links*/
+}
